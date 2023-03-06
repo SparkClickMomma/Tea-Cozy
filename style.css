@@ -1,0 +1,42 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    box-sizing: border-box;
+    display: flex;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.logo {
+  height: 50px;
+}
+
+#nav header {
+    display: inline-flex;
+    text-align: right;
+    text-decoration: underline;
+    list-style: none;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#Mission {
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg?_gl=1*ogfglh*_ga*NjA0NDc3OTE0OC4xNjcyNzU2MjA1*_ga_3LRZM6TM9L*MTY3ODEzNDAzNi43My4wLjE2NzgxMzQwMzYuNjAuMC4w");
+    width: 1200px;
+    text-align: center;
+    display: flex;
+
+}
